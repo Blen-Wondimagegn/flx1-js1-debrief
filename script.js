@@ -7,6 +7,8 @@ if (typeof myNumber !== "number") {
   console.log("Gen");
 } else if (myNumber % 5 == 0) {
   console.log("Buzz");
+} else if (myNumber % 5 == 0 && myNumber % 3 == 0) {
+  console.log("Genbuzz");
 } else {
   console.log(myNumber);
 }
